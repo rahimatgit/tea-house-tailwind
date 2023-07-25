@@ -4,8 +4,87 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tea House</title>
+    <!-- daisyUi -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.4.0/dist/full.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body>
-    
+    <!-- banner section -->
+    <header>
+        <div class="hero ">
+            <div class="hero-content flex-col lg:flex-row">
+              <div class="flex-1">
+                <h1 class="text-5xl font-bold">It's good <br>
+                    tea time at The <br>
+                     Tea House</h1>
+                <p class="py-6">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
+                <button class="btn btn-primary">Get Started</button>
+              </div>
+              <img class="flex-1" src="./images/banner.png" class="max-w-sm rounded-lg " />
+            </div>
+          </div>
+    </header>
+    <main class="max-w-screen-xl mx-auto">
+        <!-- featured product section -->
+        <section class="">
+            <h3 class="text-2xl lg:text-4xl font-semibold text-center">Our Featured Products</h3>
+            <p class="text-center py-5">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, <br> by injected humour, or randomised words which don't look even slightly believable. </p>
+            <!-- cards -->
+            <div class="max-w-screen-xl mx-auto grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 py-10">
+                <!-- card 1 -->
+                <div class="card  bg-base-100 shadow-xl">
+                    <figure><img class="pt-10" src="./images/tea-1.png" alt="Shoes" /></figure>
+                    <div class="card-body flex items-center">
+                      <h2 class="card-title">Shoes!</h2>
+                      <p class="text-center">If a dog chews shoes whose shoes does he choose?</p>
+                     </div>
+                </div>
+                <!-- card 2 -->
+                <div class="card  bg-base-100 shadow-xl">
+                    <figure><img class="pt-10" src="./images/tea-2.png" alt="Shoes" /></figure>
+                    <div class="card-body flex items-center">
+                      <h2 class="card-title">Shoes!</h2>
+                      <p class="text-center">If a dog chews shoes whose shoes does he choose?</p>
+                     </div>
+                </div>
+                <!-- card 3 -->
+                <div class="card  bg-base-100 shadow-xl">
+                    <figure><img class="pt-10" src="./images/tea-3.png" alt="Shoes" /></figure>
+                    <div class="card-body flex items-center">
+                      <h2 class="card-title">Shoes!</h2>
+                      <p class="text-center">If a dog chews shoes whose shoes does he choose?</p>
+                     </div>
+                </div>
+                <!-- card 4 -->
+                <div class="card  bg-base-100 shadow-xl">
+                    <figure><img class="pt-10" src="./images/tea-4.png" alt="Shoes" /></figure>
+                    <div class="card-body flex items-center">
+                      <h2 class="card-title">Shoes!</h2>
+                      <p class="text-center">If a dog chews shoes whose shoes does he choose?</p>
+                     </div>
+                </div>
+            </div>
+        </section>
+        <!-- great tea section -->
+        <section class="flex flex-col lg:flex-row mt-8 lg:mt-20 gap-5">
+          <div class="flex-1 grid grid-cols-2">
+            <div class="bg-gradient-to-r from-[#F00] to-[#FF8938] opacity-5 h-32 m-5"></div>
+            <div class="row-span-2 bg-[#e6a6231a] flex justify-center items-center m-5"><img src="./images/fresh-1.png" alt=""></div>
+            <div class="row-span-2 bg-[#5776391a] flex justify-center items-center m-5"><img src="./images/fresh-2.png" alt=""></div>
+            <div class="bg-gradient-to-r from-[#D9D9D9] to-white-100 h-32 m-5"></div>
+          </div>
+          <div class="flex-1">
+            <h3 class="text-2xl lg:text-4xl font-semibold my-5">Great Tea, Freshly <br> Presented</h3>
+            <p class="py-3">The meaning of gong cha is chanese is to provide the best tea to emperor from all possessions . It represents the highest quality and self expectation. Establishing in 2006, Gong cha had been deeply appreciated by its custoers  because of good words of mouth and unique customized service orginated from Taiwan.</p>
+            <h5 class="text-lg font-bold">Unique Taste</h5>
+            <p class="py-3">A Unique and different style from other teapots gives a luxurious and minimalist impression</p>
+            <h5 class="text-lg font-bold">Premium Quality</h5>
+            <p class="py-3">Premium Quality that makes tea more elegant and more durable when you use it.</p>
+          </div>
+        </section>
+    </main>
+    <footer>
+
+    </footer>
 </body>
 </html>
